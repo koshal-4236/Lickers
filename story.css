@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.top-bar{
+    background-color: palevioletred;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+.navbar {
+    background: white;
+    padding: 15px 0;
+    border-bottom: solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+.logo img{
+    width:80px;
+    height: 70px;
+}
+.nav-links{
+    display: flex;
+    gap:20px;
+}
+.nav-links li{
+    display: inline-block;
+}
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.nav-links a:hover, .nav-links:active{
+    color:pink;
+}
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.our-story {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.our-story h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+
+.story-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.story-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.story-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.story-text {
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+}
+
+.story-text p {
+    margin-bottom: 15px;
+}
+
+.reverse {
+    grid-template-columns: 1fr 1fr;
+}
+
+.reverse .story-text {
+    order: 1;
+}
+
+.reverse img {
+    order: 2;
+}
+
+.section2{
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    background-color:palevioletred;
+}
+.section2 h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.section2 p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.section2 button{
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: tomato;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+main {
+    border-bottom:solid rgba(0, 0, 0, 0.1);
+}
+.section3{
+    border-bottom:solid rgba(0, 0, 0, 0.1);
+}
+.sec3{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 18px;
+    gap:25px;
+    line-height: 60px;
+    
+    
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email input{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.social{
+    display: flex;
+    gap:25px;
+}
+footer{
+    text-align: center;
+    margin: 25px;
+}
